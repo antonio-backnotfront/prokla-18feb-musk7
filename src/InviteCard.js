@@ -8,23 +8,22 @@ function InviteCard() {
   const queryParameters = new URLSearchParams(window.location.search)
   // const geo = queryParameters.get("geo")
 
-  const link = "tg://join?invite=1k-mh6bPIqE2MDMy";
+  const link = "tg://join?invite=IGyFIpLDveA1MTli";
   
   return (
     <div className="invite-card">
       <div className="invite-card-content">
         <img src={require("./logo.jpg")} alt="ESCO Agency" className="channel-logo" />
-        <h1 className="channel-name">TashExchange USDT 🇺🇿💸</h1>
-        <p className="channel-handle">1 108 subscribers</p>
+        <h1 className="channel-name">Hanbit Exchange 🇪🇺🇰🇷🇦🇪</h1>
+        <p className="channel-handle">1 082 subscribers</p>
         <p className="channel-description">
-          Обмен криптовалют на наличные в Ташкенте!
+         💱Обмен криптовалют на наличные в 19 странах мира!
         </p>
-        <ul>
-          <li>💰 Доплачиваем +2% за ваш тезер</li>
-          <li>👌🏻 Без верификации и скрытой комиссии</li>
-        </ul>
         <p className="channel-description">
-          Менеджер: <strong>@tashexchange_manager</strong>
+         Работаем: Сеул, Варшава, Дубай, Барселона, Вена, Братислава, Стамбул и другие города
+        </p>
+        <p className="channel-description">
+          📝Менеджер: <strong>@hanbit_manager</strong>
         </p>
           <Button className="channel-link" text="перейти на канал" link={link} type="msg" />
       </div>
