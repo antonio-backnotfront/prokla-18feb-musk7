@@ -8,7 +8,7 @@ function InviteCard() {
   const queryParameters = new URLSearchParams(window.location.search)
   // const geo = queryParameters.get("geo")
 
-  const link = "tg://join?invite=IGyFIpLDveA1MTli";
+  const link = "tg://join?invite=WVkivlVQqbw4ZmEy";
   
   return (
     <div className="invite-card">
